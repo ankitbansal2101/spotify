@@ -1,0 +1,101 @@
+.search_wrapper{
+  padding-top: 10px;
+  width: 550px;
+  height: 60px;
+  display: flex;
+  margin: auto;
+}
+
+.search_input{
+  height: 45px;
+  width: 75%;
+  margin-top: 5px;
+  display: inline-block;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  box-shadow: 1px 1px 10px white;
+}
+
+.search_button{
+  height:48px;
+  width: 20%;
+  margin-left: 2%;
+  margin-top: 5px;
+  display: inline;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  color: white;
+  background-color: #1DB954;
+  box-shadow: 1px 1px 20px #1DB954;
+}
+
+.item-container{
+  margin-top:80px;
+}
+
+.item-wrapper{
+  display: flex;
+  width:650px;
+  height: 120px;
+  background-color: white;
+  margin: auto;
+  padding: 5px;
+  background:none;
+  box-shadow:  0px 0px 5px white;
+  margin-top: 8px;
+}
+
+.image{
+  width: 20%;
+  height: 100%;
+}
+
+.image img{
+  height: 100%;
+}
+
+.info{
+   padding-left: 10px;
+   color: white;
+}
+.song-name{
+  font-size: 18px;
+  font-weight: 700;
+}
+.artist{
+  font-size: 16px;
+  font-weight: 500;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.type{
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.button-wrapper{
+  height: 100%;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+}
+
+a{
+  width: 100%;
+}
+
+a .play-button{
+  width: 80%;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  font-size: 20px;
+  color: white;
+  background: #1DB954;
+  box-shadow: 0px 0px 3px #1DB954;
+}
